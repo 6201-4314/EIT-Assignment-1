@@ -2,6 +2,10 @@
 
 
 
+// includes() method
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+let includesFruit = fruits.includes("Apple");
+console.log(includesFruit);
 
 
 //Task related to Object
@@ -12,7 +16,7 @@ let persons = {
     age: 22,
     favColor: "Black"
 };
-console.log(Object.entries(persons));        //  entries() method
+console.log(Object.entries(persons));    //  entries() method
 //output
 // [
 //   [ 'firstName', 'Nazmul' ],
@@ -39,8 +43,6 @@ console.log(info);
 //   age: 22,
 //   favColor: 'Black'
 // }
-
-
 
 
 
